@@ -1,9 +1,4 @@
 
-# coding: utf-8
-
-# In[1]:
-
-
 ##import the libraries 
 
 from keras.datasets import imdb
@@ -12,9 +7,6 @@ from keras import layers
 from keras import optimizers
 import matplotlib.pyplot as plt
 import numpy as np
-
-
-# In[2]:
 
 
 # Load the IMDB data
@@ -43,10 +35,6 @@ partial_x_train = x_train[10000:]
 y_val = y_train[:10000]
 partial_y_train = y_train[10000:]
 
-
-# In[4]:
-
-
 ## Keras Sequential Model
 
 model = models.Sequential()
@@ -66,7 +54,6 @@ results = model.evaluate(x_test, y_test)
 results
 
 
-# In[7]:
 
 
 history_dict = history.history
