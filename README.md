@@ -1,4 +1,4 @@
-# deep-neurals-networks
+# Sequential Anomaly Detection
 
 This work describes a computational efficient anomaly based intrusion detection system based on Recurrent Neural Networks.
 Using Gated Recurrent Units rather than the normal LSTM networks it is possible to obtain a set of comparable results with reduced training times. 
